@@ -1,14 +1,4 @@
 {
-  "extends": "./.nuxt/tsconfig.json",
-  "compilerOptions": {
-    "strict": true,
-    "esModuleInterop": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "target": "ESNext",
-    "moduleResolution": "Node",
-    "lib": ["ESNext", "DOM"],
-    "types": ["@nuxt/types", "@types/node"],
-    "noEmit": true
-  }
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
 }
