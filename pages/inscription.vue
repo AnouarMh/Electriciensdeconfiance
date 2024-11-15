@@ -6,7 +6,6 @@
       
       <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="flex flex-col lg:flex-row justify-between gap-12">
-          <!-- Registration Form Section -->
           <div class="w-full lg:w-1/2 max-w-md mx-auto lg:max-w-none">
             <div class="bg-white p-8 rounded-lg shadow-md border border-gray-200">
               <div class="flex items-center gap-2 mb-8">
@@ -127,7 +126,6 @@
             </div>
           </div>
   
-          <!-- Illustration -->
           <div class="hidden lg:block w-full lg:w-1/2">
             <img
               src="~/assets/images/IllustrationInsci.svg"
@@ -197,7 +195,6 @@ const handleSubmit = async () => {
 
 const signUpWithGoogle = () => {
   console.log('Google sign-up clicked')
-  // Implement Google sign-up logic here
 }
 </script>
   
@@ -214,12 +211,10 @@ const signUpWithGoogle = () => {
     --google-btn-hover: #F3F4F6;
   }
   
-  /* Add smooth transitions */
   .transition-colors {
     transition: all 0.2s ease-in-out;
   }
   
-  /* Improve focus styles */
   input:focus, button:focus {
     outline: none;
     ring-width: 2px;

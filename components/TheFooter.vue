@@ -2,7 +2,6 @@
   <footer class="bg-[#F9FAFB] border-t border-[#F3F4F6]">
     <div class="mx-auto w-[1440px]">
       <div class="mx-auto w-[1280px] py-16 space-y-12">
-        <!-- CTA Section -->
         <div class="space-y-8">
           <h2 class="font-inter text-[36px] font-bold leading-[45px] text-center text-[#111928]">
             Commencez Maintenant
@@ -14,9 +13,7 @@
           </div>
         </div>
 
-        <!-- Nav Links Grid -->
         <div class="flex h-[221px] w-full justify-between">
-          <!-- Contact Column -->
           <div class="w-[176px] space-y-4">
             <h3 class="font-inter text-sm font-semibold uppercase leading-[21px] text-[#111928]">
               Contact
@@ -28,7 +25,6 @@
             </div>
           </div>
 
-          <!-- Legal Column -->
           <div class="w-[176px] space-y-4">
             <h3 class="font-inter text-sm font-semibold uppercase leading-[21px] text-[#111928]">
               Légale
@@ -45,7 +41,6 @@
             </div>
           </div>
 
-          <!-- Navigation Column -->
           <div class="w-[176px] space-y-4">
             <h3 class="font-inter text-sm font-semibold uppercase leading-[21px] text-[#111928]">
               Navigation
@@ -63,12 +58,9 @@
           </div>
         </div>
 
-        <!-- Separator -->
         <div class="h-px w-full bg-[#E5E7EB]"></div>
 
-        <!-- Bottom Section -->
         <div class="flex items-center justify-between">
-          <!-- Logo -->
           <div class="flex items-center gap-3">
             <img src="~/assets/images/logo.png" alt="EDC" class="h-[35.42px] w-[32px]" />
             <span class="font-outfit text-2xl font-semibold leading-9 text-[#111928]">
@@ -76,12 +68,10 @@
             </span>
           </div>
 
-          <!-- Copyright -->
           <p class="font-inter text-base font-normal leading-6 text-[#6B7280]">
             © 2022 INOVENCIA, Inc. Tout les droits sont résérvés.
           </p>
 
-          <!-- Language -->
           <img src="~/assets/images/frFlag.webp" alt="FR" class="h-[13.31px] w-5" />
         </div>
       </div>

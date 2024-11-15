@@ -1,7 +1,6 @@
 <template>
   <section class="w-[1442px] h-[739px] bg-[#F9FAFB] pt-[96px]  -ml-[2px]">
     <div class="w-[1280px] h-[547px] mx-auto flex flex-col gap-4">
-      <!-- CTA Card -->
       <div class="w-full h-[121px] flex flex-col gap-1">
         <h2 class="font-['Inter'] text-[36px] font-extrabold leading-[45px] tracking-[-0.01em] text-[#233876]">
           Ce qu'on fait pour vous
@@ -11,9 +10,7 @@
         </p>
       </div>
 
-      <!-- Features Row -->
       <div class="w-full h-[362px] flex gap-2">
-        <!-- Column 1 -->
         <div class="w-[392px] h-[314px] flex flex-col gap-[20px]">
           <img src="~/assets/images/shape-9.svg" alt="Reputation Icon" class="w-16 h-16" />
           <div class="flex flex-col gap-[20px]">
@@ -29,7 +26,6 @@
           </div>
         </div>
 
-        <!-- Column 2 -->
         <div class="w-[392px] h-[314px] flex flex-col gap-[20px]">
           <img src="~/assets/images/shape-11.svg" alt="Profitability Icon" class="w-16 h-16" />
           <div class="flex flex-col gap-[20px]">
@@ -45,7 +41,6 @@
           </div>
         </div>
 
-        <!-- Column 3 -->
         <div class="w-[392px] h-[314px] flex flex-col gap-[20px]">
           <img src="~/assets/images/shape-12.svg" alt="Marketing Icon" class="w-16 h-16" />
           <div class="flex flex-col gap-[20px]">

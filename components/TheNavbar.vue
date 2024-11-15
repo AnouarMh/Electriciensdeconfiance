@@ -2,7 +2,6 @@
   <nav class="bg-[#F9FAFB] py-6">
     <div class="mx-auto w-[1440px]">
       <div class="mx-auto flex h-[41px] w-[1280px] items-center justify-between gap-8">
-        <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-3">
           <img src="~/assets/images/logo.png" alt="EDC" class="h-[35.42px] w-[32px]" />
           <span class="font-outfit text-2xl font-semibold leading-9 text-[#111928]">
@@ -10,7 +9,6 @@
           </span>
         </NuxtLink>
 
-        <!-- Nav Links -->
         <div class="flex h-6 w-[740px] items-center justify-center gap-8 px-10">
           <NuxtLink 
             v-for="link in navLinks" 
@@ -22,7 +20,6 @@
           </NuxtLink>
         </div>
 
-        <!-- CTA Buttons -->
         <div class="flex h-[41px] items-center gap-4">
           <NuxtLink 
             to="/inscription"

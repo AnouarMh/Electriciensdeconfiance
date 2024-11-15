@@ -1,25 +1,19 @@
 <template>
     <div class="min-h-screen">
-      <!-- Left Sidebar -->
       <DashboardSidebar :activeRoute="'compte'" />
       
-      <!-- Vertical Line between Sidebar and Content -->
       <div class="fixed left-[249px] top-0 w-[1px] h-[1062px] bg-[#E6EFF5]"></div>
       
       <div class="ml-[250px]">
-        <!-- Top Header -->
+        
         <DashboardHeader />
         
-        <!-- Horizontal Line below Header -->
         <div class="w-[1190px] h-[1px] bg-[#E6EFF5]"></div>
         
-        <!-- Main Content Area -->
         <div class="bg-[#F5F7FA] min-h-[2102px]">
           <div class="container mx-auto pt-[32px] px-[35px]">
             <div class="grid grid-cols-12 gap-[32px]">
-              <!-- Column 1 -->
               <div class="col-span-5 space-y-[32px]">
-                <!-- Company Profile Widget -->
                 <div class="bg-white rounded-lg shadow-[0px_1px_2px_0px_#00000014] p-8">
                   <div class="flex gap-4">
                     <div class="w-[112px] h-[112px] flex items-center justify-center">
@@ -54,7 +48,6 @@
                   </div>
                 </div>
   
-                <!-- Preferences Widget -->
                 <div class="bg-white rounded-lg shadow-[0px_1px_2px_0px_#00000014] p-8">
                   <h2 class="text-xl font-bold text-[#111928] mb-4">Préférences</h2>
                   <div class="space-y-4">
@@ -73,7 +66,6 @@
                   </div>
                 </div>
   
-                <!-- Company Description Widget -->
                 <div class="bg-white rounded-lg shadow-[0px_1px_2px_0px_#00000014]">
                   <div class="p-8">
                     <div class="flex items-center justify-between pb-6 border-b border-[#E5E7EB]">
@@ -96,7 +88,6 @@
                 </div>
               </div>
   
-              <!-- Column 2 -->
               <div class="col-span-7 space-y-[32px]">
                 <PersonalInfoForm />
                 <CompanyDetailsForm />
@@ -172,8 +163,13 @@ const handleFileUpload = async (event) => {
     const data = await response.json()
     userData.value = data.user
     entrepriseData.value = data.entreprise
+
+    if (!data.entreprise) {
+      router.push('/onboarding')
+    }
   } catch (error) {
     console.error('Error fetching user data:', error)
+    router.push('/connexion')
   }
 }
 

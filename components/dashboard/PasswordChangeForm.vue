@@ -1,6 +1,5 @@
 <template>
     <div class="bg-white rounded-lg shadow-[0px_1px_2px_0px_#00000014]">
-      <!-- Form Header -->
       <div class="px-8 pt-8">
         <div class="w-full h-[46px] pb-4">
           <h2 class="font-['Inter'] text-xl font-bold leading-[30px] text-[#111928]">
@@ -8,10 +7,8 @@
           </h2>
         </div>
   
-        <!-- Form Content -->
         <form @submit.prevent="changePassword" class="w-full">
           <div class="flex gap-4 mb-4">
-            <!-- Left Column -->
             <div class="w-1/2 space-y-4">
               <div class="h-[71px]">
                 <label class="block text-sm font-medium text-[#111928] mb-2">
@@ -27,7 +24,6 @@
               </div>
             </div>
   
-            <!-- Right Column -->
             <div class="w-1/2 space-y-4">
               <div class="h-[71px]">
                 <label class="block text-sm font-medium text-[#111928] mb-2">
@@ -59,7 +55,6 @@
             </div>
           </div>
   
-          <!-- Password Requirements -->
           <div class="bg-[#F9FAFB] p-4 rounded-lg mb-6">
             <h3 class="text-sm font-medium text-[#111928] mb-2">Password requirements:</h3>
             <ul class="text-sm text-[#6B7280] space-y-1">
@@ -69,7 +64,6 @@
             </ul>
           </div>
   
-          <!-- Action Button -->
           <div class="w-full pt-6 pb-8">
             <button
               type="submit"

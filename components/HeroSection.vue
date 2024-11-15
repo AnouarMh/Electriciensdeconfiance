@@ -1,13 +1,9 @@
 <template>
   <section class="bg-white pt-[89px]">
     <div class="w-[1440px] h-[770px] mx-auto py-6">
-      <!-- Main Container -->
       <div class="w-[1280px] h-[578px] mx-auto flex flex-col gap-2">
-        <!-- Hero Content -->
         <div class="w-full h-[400px] flex justify-between gap-4">
-          <!-- Left Content -->
           <div class="w-[676px] h-[277px] flex flex-col gap-2">
-            <!-- Heading & Paragraph -->
             <div class="w-[676px] h-[204px] flex flex-col gap-1.5">
               <h1 class="font-['Inter'] text-[60px] font-extrabold leading-[60px] tracking-[-0.01em] text-[#233876]">
                 Mettrez en lumière votre savoir faire
@@ -17,7 +13,6 @@
               </p>
             </div>
 
-            <!-- CTA Button -->
             <div class="w-[676px] h-[41px]">
               <button class="inline-flex items-center h-[41px] px-5 py-[10px] gap-2 bg-[#C27803] rounded-lg">
                 <img 
@@ -32,7 +27,6 @@
             </div>
           </div>
 
-          <!-- Right Content -->
           <div class="w-[540px] h-[400px]">
             <img 
               src="~/assets/images/mockup 1.png"
@@ -42,9 +36,7 @@
           </div>
         </div>
 
-        <!-- Features -->
         <div class="w-full h-[146px] py-6 flex justify-between gap-2">
-          <!-- Feature 1 -->
           <div class="w-[405.33px] h-[98px] flex flex-col gap-[10px]">
             <h3 class="font-['Inter'] text-xl font-bold leading-5 text-[#111928]">
               Protégez votre e-reputation
@@ -54,7 +46,6 @@
             </p>
           </div>
 
-          <!-- Feature 2 -->
           <div class="w-[405.33px] h-[98px] flex flex-col gap-[10px]">
             <h3 class="font-['Inter'] text-xl font-bold leading-5 text-[#111928]">
               Boostez votre rentabilité
@@ -64,7 +55,6 @@
             </p>
           </div>
 
-          <!-- Feature 3 -->
           <div class="w-[405.33px] h-[98px] flex flex-col gap-[10px]">
             <h3 class="font-['Inter'] text-xl font-bold leading-5 text-[#111928]">
               Améliorez votre présence en ligne
@@ -79,6 +69,3 @@
   </section>
 </template>
 
-<script setup>
-// No additional script needed for this component
-</script>

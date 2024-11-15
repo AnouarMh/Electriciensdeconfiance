@@ -1,9 +1,7 @@
 <template>
   <div class="min-h-screen flex bg-white">
-    <!-- Left Sidebar -->
     <div class="hidden md:flex w-[448px] bg-[#233876]">
       <div class="flex flex-col gap-8 p-12">
-        <!-- Back Button -->
         <div class="flex items-center  gap-2">
           <img src="~/assets/images/logo.png" alt="Logo" class="logo" />
             <NuxtLink to="/" class="color-white">
@@ -12,7 +10,6 @@
             </NuxtLink>
         </div>
 
-        <!-- Plan Card -->
         <div class="bg-gray-50 rounded-lg p-8">
           <h2 class="text-2xl font-semibold text-gray-900 mb-2">Votre plan actuel</h2>
           <p class="text-lg font-semibold text-[#C27803] mb-6">30 jours essai gratuit</p>
@@ -26,9 +23,7 @@
       </div>
     </div>
 
-    <!-- Main Content -->
     <div class="flex-1 px-8 py-8 max-w-4xl mx-auto">
-      <!-- Progress Steps -->
       <div class="max-w-2xl mx-auto mb-12">
         <div class="flex items-center justify-between relative">
           <div class="absolute top-[14px] left-0 right-0 h-[1px] bg-gray-200 -z-10"></div>
@@ -60,9 +55,7 @@
       </div>
 
 
-      <!-- Step Content -->
       <div class="max-w-2xl mx-auto">
-        <!-- Step 1: Company Size -->
         <div v-if="currentStep === 1">
           <h1 class="text-2xl font-extrabold text-gray-900 mb-2">Faisons connaissance !</h1>
           <h2 class="text-lg text-gray-500 mb-6">Quelle est la taille de votre entreprise ?</h2>
@@ -95,7 +88,6 @@
           </button>
         </div>
 
-        <!-- Step 2: Company Details -->
         <div v-if="currentStep === 2">
           <h1 class="text-2xl font-extrabold text-gray-900 mb-6">Détail de l'entreprise</h1>
           
@@ -160,7 +152,6 @@
           </form>
         </div>
 
-        <!-- Step 3: Confirmation -->
         <div v-if="currentStep === 3" class="text-center">
           <h1 class="text-2xl font-extrabold text-gray-900 mb-4">Félicitation !</h1>
           

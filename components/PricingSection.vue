@@ -2,11 +2,8 @@
   <section class="bg-white py-16 px-0 pb-24">
     <div class="mx-auto w-[1440px]">
       <div class="mx-auto w-[1280px]">
-        <!-- Pricing Card -->
         <div class="flex rounded-lg bg-white shadow-[0px_1px_2px_-1px_#0000001A,0px_1px_3px_0px_#0000001A]">
-          <!-- Left Content -->
           <div class="flex-1 p-8 space-y-8">
-            <!-- Heading -->
             <div class="space-y-0">
               <h2 class="font-inter text-[30px] font-extrabold leading-[45px] text-[#111827]">
                 Une tarification simple qui fait la différence
@@ -16,9 +13,7 @@
               </p>
             </div>
 
-            <!-- Feature List -->
             <div class="grid grid-cols-3 gap-4">
-              <!-- Column 1 -->
               <div class="space-y-4">
                 <div class="flex items-center gap-2">
                   <svg class="h-5 w-5 text-[#22C55E]" viewBox="0 0 20 20" fill="currentColor">
@@ -40,7 +35,6 @@
                 </div>
               </div>
 
-              <!-- Column 2 -->
               <div class="space-y-4">
                 <div class="flex items-center gap-2">
                   <svg class="h-5 w-5 text-[#22C55E]" viewBox="0 0 20 20" fill="currentColor">
@@ -62,7 +56,6 @@
                 </div>
               </div>
 
-              <!-- Column 3 -->
               <div class="space-y-4">
                 <div class="flex items-center gap-2">
                   <svg class="h-5 w-5 text-[#22C55E]" viewBox="0 0 20 20" fill="currentColor">
@@ -80,20 +73,16 @@
             </div>
           </div>
 
-          <!-- Right Content -->
           <div class="w-[320px] space-y-4 rounded-r-lg bg-[#F9FAFB] p-8">
-            <!-- Price -->
             <div class="space-y-1">
               <div class="font-inter text-5xl font-extrabold leading-none text-[#111928]">€9,99</div>
               <div class="font-inter text-base font-medium text-[#6B7280]">Mensuel</div>
             </div>
 
-            <!-- Button -->
             <button class="w-full rounded-lg bg-[#C27803] py-3 px-5 font-inter text-base font-medium text-white hover:bg-[#9A6700] transition-colors">
               Rejoignez les éléctriciens de confiance
             </button>
 
-            <!-- Link -->
             <div class="flex items-center justify-center gap-2">
               <a href="#" class="font-inter text-sm font-medium leading-none text-[#6B7280] hover:text-[#4B5563] transition-colors">
                 Consultez la page de tarification

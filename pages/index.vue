@@ -13,5 +13,4 @@
   </template>
   
   <script setup>
-  // Les composants sont automatiquement importés par Nuxt
   </script>

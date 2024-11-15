@@ -2,14 +2,11 @@
     <section class="bg-white py-24">
       <div class="mx-auto w-[1440px]">
         <div class="mx-auto w-[1280px] space-y-12">
-          <!-- Heading -->
           <h2 class="font-inter text-[36px] font-extrabold leading-[45px] tracking-[-0.01em] text-[#111928]">
             Besoin d'aide ?
           </h2>
   
-          <!-- Row -->
           <div class="flex gap-16 h-[124px]">
-            <!-- Support Chat -->
             <div class="flex-1 space-y-4">
               <img 
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fingerprint-yUAI6jluD1lA2GOVUKKFCkBN9HPq7V.svg"
@@ -35,7 +32,6 @@
               </a>
             </div>
   
-            <!-- FAQs -->
             <div class="flex-1 space-y-4">
               <img 
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/question-mark-rvCVifx1hRiqwLKUa89XNx1WooWD05.svg"
@@ -61,7 +57,6 @@
               </a>
             </div>
   
-            <!-- Blog -->
             <div class="flex-1 space-y-4">
               <img 
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/newspapper-LQlILlwuIvUhzFEV2QaWdCN7Jwkzyh.svg"

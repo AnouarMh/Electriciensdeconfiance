@@ -1,9 +1,7 @@
 <template>
     <header class="bg-white h-[100px] flex items-center justify-between px-11">
-      <!-- Logo -->
      
   
-      <!-- CTA (Return to homepage) -->
       <NuxtLink 
         to="/" 
         class="flex items-center gap-1 text-sm font-medium text-[#233876] hover:underline"
@@ -12,20 +10,33 @@
         Retour à la page d'accueil
       </NuxtLink>
   
-      <!-- User Profile and Notification -->
       <div class="flex items-center gap-[35px]">
         <div class="relative">
           <img src="~/assets/images/Notification.png" alt="Notifications" class="w-[50px] h-[50px]" />
         </div>
-        <img src="~/assets/images/Mask Group.png" alt="User Profile" class="w-[60px] h-[60px] rounded-full" />
+        <img :src="userLogoUrl" alt="User Profile" class="w-[60px] h-[60px] rounded-full object-cover" />
       </div>
     </header>
   </template>
   
   <script setup>
-  // No additional script needed for this component
-  </script>
+  import defaultLogo from '~/assets/images/Mask Group.png'
+  import { computed } from 'vue'
+
+const props = defineProps({
+  userData: {
+    type: Object,
+    default: () => ({})
+  }
+})
+
+const userLogoUrl = computed(() => {
+  if (props.userData && props.userData.logo) {
+    return `http://127.0.0.1:8000/storage/${props.userData.logo}`
+  }
+  return defaultLogo
+})
+</script>
   
   <style scoped>
-  /* Add any additional styles here if needed */
   </style>

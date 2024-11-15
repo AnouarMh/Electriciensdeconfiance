@@ -1,13 +1,11 @@
 <template>
   <aside class="fixed left-0 top-0 h-full w-[240px] bg-white border-r border-gray-200">
-    <!-- Logo -->
     <div class="p-4">
         <div class="flex items-center gap-3">
         <img src="~/assets/images/logo.png" alt="Logo" class="w-32px h-35.5px" />
       </div>
     </div>
 
-    <!-- Navigation -->
     <nav class="mt-6">
       <ul class="space-y-1">
         <li v-for="item in navItems" :key="item.route">

@@ -2,7 +2,6 @@
   <section class="border-y border-[#F3F4F6] bg-white">
     <div class="mx-auto w-[1440px] py-24">
       <div class="mx-auto w-[1280px] space-y-16">
-        <!-- CTA Card -->
         <div class="space-y-4">
           <h2 class="text-center font-inter text-[36px] font-extrabold leading-[45px] tracking-[-0.01em] text-[#233876]">
             Pourquoi c'est toujours les mauvais avis qui tombent ?
@@ -12,9 +11,7 @@
           </p>
         </div>
 
-        <!-- Row -->
         <div class="flex gap-8">
-          <!-- Left Column -->
           <div class="w-[608px] space-y-5">
             <div class="flex justify-center">
               <img 
@@ -33,10 +30,8 @@
             </div>
           </div>
 
-          <!-- Divider -->
           <div class="h-[249px] w-px bg-[#E5E7EB]" />
 
-          <!-- Right Column -->
           <div class="w-[608px] space-y-5">
             <div class="flex justify-center">
               <img 
@@ -56,7 +51,6 @@
           </div>
         </div>
 
-        <!-- CTA -->
         <div class="flex justify-center">
           <a 
             href="#" 
