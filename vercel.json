@@ -1,0 +1,12 @@
+{
+    "builds": [
+      {
+        "src": "nuxt.config.ts",
+        "use": "@nuxtjs/vercel-builder",
+        "config": {
+          "serverFiles": ["server/**"],
+          "buildCommand": "npm install --verbose && npm run build"
+        }
+      }
+    ]
+  }
