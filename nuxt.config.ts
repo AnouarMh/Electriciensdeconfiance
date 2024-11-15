@@ -20,7 +20,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-14',
   typescript: {
     strict: true,
-    typeCheck: true
+    typeCheck: true,
+    shim: false
   },
   nitro: {
     preset: 'vercel'
